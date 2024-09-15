@@ -10,7 +10,7 @@ public class ContaCorrente extends Conta{
 
     @Override
     public void imprimirExtrato() {
-        System.out.println(" Exibindo extrato da conta corrente");
+        System.out.println("===== Extrato Conta Corrente ====");
         super.imprimirInfos();
 
         

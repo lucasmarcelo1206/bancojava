@@ -3,7 +3,7 @@ package Banco;
 public class Main {
     public static void main(String[] args) {
         Cliente lucas = new Cliente();
-        lucas.setNome("Lucas");
+        lucas.setNome("João");
         ContaCorrente cc = new ContaCorrente(lucas);
         ContaPoupanca cp = new ContaPoupanca(lucas);
         cc.depositar(1500);
